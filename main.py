@@ -5,7 +5,7 @@ from langchain_community.tools import DuckDuckGoSearchRun
 llm = ChatGoogleGenerativeAI(model="gemini-pro",
                              verbose=True,
                              temeprature=0.5,
-                             google_api_key="AIzaSyBf8xT0JdPAsaKSPGDTdXZdIO8NhLye4Gw")
+                             google_api_key="")
 
 search_tool = DuckDuckGoSearchRun()
 
